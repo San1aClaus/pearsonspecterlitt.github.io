@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pearson Specter Litt</title>
+    <link rel="stylesheet" href="welcome.css" />
+    <link rel="stylesheet" href="areas.css"/>
+    <link rel="icon" href="bold.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="footer.css" />
+    <style>
+  
+      .section-heading {
+        margin-top: 80px;
+      }
+      .nav {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="welcome.html">Pearson Specter Litt</a></h2>
+
+          <ul class="menu_items">
+            <img src="times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="welcome.html" class="nav_link">Home</a></li>
+            <li><a href="about.html" class="nav_link">About</a></li>
+            <li><a href="areas.html" class="nav_link">Practice Areas</a></li>
+            <li><a href="teams.html" class="nav_link">Our Team</a></li>
+            <li><a href="log-in.html" class="nav_link">Log-In-Sign-Up</a></li>
+          </ul>
+          <img src="bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <section>
+        <div class="row">
+          <h1 class="section-heading">Legal Service Offerings</h1>
+        </div> <br><br>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-hammer"></i>
+              </div>
+              <h3>Criminal Law</h3>
+              <p>
+                Criminal law deals with offenses committed against society or the state. It encompasses crimes such as theft, assault, murder, and other illegal activities. Criminal lawyers represent individuals or organizations involved in criminal cases, either as defendants or prosecutors.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-brush"></i>
+              </div>
+              <h3>Corporate Law</h3>
+              <p>
+                Corporate law focuses on the legal aspects of business and corporate affairs. It involves advising and representing businesses, corporations, and other entities in matters such as formation, governance, contracts, mergers and acquisitions, intellectual property, and compliance with regulations.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h3>Family Law</h3>
+              <p>
+                Family law deals with legal matters related to family and domestic relationships. It includes areas such as divorce, child custody, adoption, spousal support, child support, paternity, and domestic violence. Family lawyers provide legal guidance and representation to individuals or families in these matters.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-truck-pickup"></i>
+              </div>
+              <h3>Real Estate Law</h3>
+              <p>
+                Real estate law involves legal issues related to properties, land, and real estate transactions. It covers areas such as buying and selling properties, leasing agreements, property disputes, zoning laws, property development, and financing. Real estate lawyers assist clients in navigating these legal aspects of real estate transactions.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-broom"></i>
+              </div>
+              <h3>Intellectual Property Law</h3>
+              <p>
+                Intellectual property (IP) law deals with protecting and enforcing rights related to creations of the mind, such as inventions, trademarks, copyrights, and patents. IP lawyers help individuals or organizations secure their intellectual property rights, enforce those rights, and handle issues like infringement or licensing.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-plug"></i>
+              </div>
+              <h3>Personal Injury Law</h3>
+              <p>
+                Personal injury law focuses on providing legal representation to individuals who have been physically or psychologically injured due to the negligence or wrongdoing of others. Personal injury lawyers handle cases such as car accidents, workplace injuries, medical malpractice, product liability, and premises liability, seeking compensation for their clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero">
+        <div class="container">
+        </div>
+        <img src="" alt="" class="curveImg" />
+      </section>
+    
+      
+    </main>
+  
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="areas.html">Practice Areas</a></li>
+                <li><a href="teams.html">Our Team</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="https://forms.gle/CLfFnGYVM1ge7fXz7">Report Bugs</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/san1ac1aus"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/S4nta_Tsuwewep"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/s4ntac1aus/"><i class="fab fa-instagram"></i></a>
+                <a href="https://shaelelmeryanto.jobs180.com/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

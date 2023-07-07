@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pearson Specter Litt</title>
+  <link rel="stylesheet" href="welcome.css" />
+  <link rel="stylesheet" href="about.css"/>
+  <link rel="icon" href="bold.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/54fba13ebc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="footer.css" />
+</head>
+<body>
+  <main>   
+    <header>
+      <nav class="nav container">
+        <h2 class="nav_logo"><a href="welcome.html">Pearson Specter Litt</a></h2>
+
+        <ul class="menu_items">
+          <img src="times.svg" alt="timesicon" id="menu_toggle" />
+          <li><a href="welcome.html" class="nav_link">Home</a></li>
+          <li><a href="about.html" class="nav_link">About</a></li>
+          <li><a href="areas.html" class="nav_link">Practice Areas</a></li>
+          <li><a href="teams.html" class="nav_link">Our Team</a></li>
+          <li><a href="log-in.html" class="nav_link">Log-In-Sign-Up</a></li>
+        </ul>
+        <img src="bars.svg" alt="timesicon" id="menu_toggle" />
+      </nav>
+    </header>
+    <section>
+      <div class="row">
+        <h1 class="section-heading">Get to know us better!</h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h3>Mission</h3>
+            <p>
+              Our mission is to provide high-quality, accessible resources and services that empower individuals to unlock their full potential, enhance personal growth, and create positive change in their lives. We strive to inspire and support our community in their journey towards self-improvement and fulfillment.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-brush"></i>
+            </div>
+            <h3>Vision</h3>
+            <p>
+              We envision a world where every individual has the tools, knowledge, and support to pursue their dreams, overcome challenges, and lead meaningful lives. Our vision is to be the trusted platform that offers comprehensive and innovative solutions for personal development, fostering a global community of empowered and thriving individuals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="row">
+        <h1 class="section-heading">Our Core Values!</h1>
+      </div> <br><br><br><br><br>
+      <div class="row"> 
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h3>Integrity</h3>
+            <p>
+              We uphold the highest ethical standards, act honestly and transparently, and consistently deliver on our promises. We prioritize ethical conduct, maintaining the highest level of integrity in our legal practice, and always acting in the best interests of our clients.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-brush"></i>
+            </div>
+            <h3>Client Advocacy</h3>
+            <p>
+              We are dedicated to providing strong advocacy and personalized representation, fighting passionately for the rights and interests of our clients. We are committed to being fierce advocates for our clients, diligently representing their legal needs and working tirelessly to achieve favorable outcomes on their behalf.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h3>Expertise</h3>
+            <p>
+              We bring extensive legal knowledge and expertise to every case, staying updated on the latest laws and precedents to provide effective legal solutions. We are highly knowledgeable in our practice areas, continuously expanding our legal expertise and staying abreast of changes in legislation to provide informed and strategic counsel.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h3>Client-Centered Approach</h3>
+            <p>
+              We prioritize the needs and goals of our clients, offering personalized attention, clear communication, and tailored legal strategies. We understand that every client is unique, and we provide individualized services, actively listening to our clients' concerns, and crafting legal strategies that align with their specific needs.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-broom"></i>
+            </div>
+            <h3>Professionalism</h3>
+            <p>
+              We maintain the utmost professionalism in all aspects of our practice, treating clients, colleagues, and opposing parties with respect and courtesy. We conduct ourselves with professionalism and respect, adhering to the highest standards of professional conduct and fostering positive relationships with all parties involved.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h3>Community Engagement</h3>
+            <p>
+              We are actively involved in our community, supporting local initiatives, pro bono work, and giving back to society.We believe in giving back to our community and engaging in pro bono work to provide legal assistance to those in need. We are committed to making a positive impact beyond our legal practice.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="areas.html">Practice Areas</a></li>
+                <li><a href="teams.html">Our Team</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="https://forms.gle/CLfFnGYVM1ge7fXz7">Report Bugs</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/san1ac1aus"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/S4nta_Tsuwewep"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/s4ntac1aus/"><i class="fab fa-instagram"></i></a>
+                <a href="https://shaelelmeryanto.jobs180.com/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html> 
