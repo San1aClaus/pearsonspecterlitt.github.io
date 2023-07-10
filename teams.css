@@ -32,12 +32,18 @@ body {
 }
 
 .team .team_member {
-  background: #fff;
+  background: linear-gradient(#fff, #fff);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
   width: 300px;
   padding: 20px;
   line-height: 20px;
   color: #8e8b8b;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 0.3s ease-in-out;
 }
 
 .team .team_member h3 {
@@ -64,4 +70,84 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.team .team_member::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(44, 123, 254, 0.9);
+  transition: height 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.team .team_member:hover::before {
+  height: 100%;
+}
+
+.team .team_member:hover {
+  background-position: 0 0;
+}
+.team .team_member {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .team_member::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(44, 123, 254, 0.9);
+  transition: height 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.team .team_member:hover::before {
+  height: 100%;
+}
+.team .team_member .card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.team .team_member .card:hover {
+  background-position: 0 100%;
+}
+
+.team .team_member .card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #2c7bfe;
+}
+
+.team .team_member .card:hover h3 {
+  color: #ffffff;
+}
+
+.team .team_member .card:hover p {
+  color: #f0f0f0;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
