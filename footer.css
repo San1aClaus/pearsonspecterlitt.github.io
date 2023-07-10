@@ -10,36 +10,27 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
-
-
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
-
 }
 
 .footer {
   background-color: #24262b;
-  padding: 70px 0;
-
+  padding: 70px 0; /* Adjust the padding as needed */
 }
 
 .footer-col {
   width: 25%;
   padding: 0 15px;
-
-
 }
 
 .footer-col h4 {
@@ -50,7 +41,6 @@ ul {
   font-weight: 500;
   position: relative;
   justify-content: center;
-
 }
 
 .footer-col h4::before {
@@ -63,13 +53,11 @@ ul {
   box-sizing: border-box;
   width: 50px;
   justify-content: center;
-
 }
 
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
   justify-content: center;
-
 }
 
 .footer-col ul li a {
@@ -88,7 +76,6 @@ ul {
   color: #ffffff;
   padding-left: 8px;
   justify-content: center;
-
 }
 
 .footer-col .social-links a {
@@ -103,14 +90,12 @@ ul {
   color: #ffffff;
   transition: all 0.5s ease;
   justify-content: center;
-
 }
 
 .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
   justify-content: center;
-
 }
 
 /* Responsive */
@@ -120,7 +105,6 @@ ul {
     width: 50%;
     margin-bottom: 30px;
     justify-content: center;
-
   }
 }
 
