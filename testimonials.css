@@ -9,13 +9,13 @@ a:link,a:active,a:visited,a:hover{
 	color:#3f51b5;
 }
 .nav.my-navbar .nav_link {
-    color: white !important;
+    color: black !important;
   }
 .outerdiv
 {
 	width: 100%;
     min-height: 100vh;
-    background: #2c7bfe;
+    background: #5995fd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,7 +104,7 @@ a:link,a:active,a:visited,a:hover{
 }
 .detbox .name.dark
 {
-	color: #49505A;
+	color: white;
 }
 .detbox .designation
 {

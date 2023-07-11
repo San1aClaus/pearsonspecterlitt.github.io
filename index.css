@@ -40,12 +40,12 @@ a {
   text-decoration: none;
 }
 
-/* Hero */
+
 .hero {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  background: url/*(bg-dot.png), url(bg-dot.png), url(bg-round.png), url(bg-tree.png);*/;
+  background: url();
   background-position: 10px 10px, bottom 215px right 10px, left 55% top -1%, left 45% bottom -1px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -108,7 +108,7 @@ a {
   display: none;
 }
 
-/* Reponsive */
+
 @media (width < 860px) {
   #menu_toggle {
     display: block;
