@@ -110,7 +110,6 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px; /* Add padding to the bottom */
-  margin-bottom: -80x;
 }
 html {
   height: 100%;
@@ -124,7 +123,7 @@ body {
 
 main {
   flex: 1 0 auto;
-  padding-bottom: 2px; /* Add padding to the bottom */
+  padding-bottom: 1px; /* Add padding to the bottom */
 }
 
 footer.footer {
